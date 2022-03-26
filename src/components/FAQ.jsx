@@ -8,7 +8,6 @@ const FAQ = () => {
   const toggle = (i) => {
     selected === i ? setSelected(null) : setSelected(i);
   };
-  console.log(selected);
 
   return (
     <div className="flex w-full flex-col gap-[1.875rem]">
@@ -18,11 +17,11 @@ const FAQ = () => {
       <div className="w-full">
         {data.map((item, i) => (
           <div
-            className="flex cursor-pointer flex-col gap-0 border-y-[0.5px] border-solid border-[#E8E8EA] py-4"
+            className="flex cursor-pointer flex-col gap-0 border-y-[0.5px] border-solid border-[#E8E8EA]"
             key={item.id}
           >
             <div
-              className="flex items-center justify-between"
+              className="flex items-center justify-between py-4"
               onClick={() => toggle(i)}
             >
               <h3 className="text-[0.813rem] font-normal leading-4 tracking-normal text-[#4B4C5F]">
