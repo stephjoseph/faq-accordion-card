@@ -10,8 +10,8 @@ const FAQ = () => {
   };
 
   return (
-    <div className="flex w-full flex-col gap-[1.875rem]">
-      <h2 className="self-center text-[2rem] font-bold leading-10 tracking-normal text-[#1E1F36]">
+    <div className="flex w-full flex-col gap-[1.875rem] xl:h-[24.063rem] xl:w-[21.875rem] xl:gap-[2.688rem]">
+      <h2 className="self-center text-[2rem] font-bold leading-10 tracking-normal text-[#1E1F36] xl:self-start">
         FAQ
       </h2>
       <div className="w-full">
