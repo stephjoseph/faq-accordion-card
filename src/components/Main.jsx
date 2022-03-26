@@ -14,7 +14,7 @@ const Main = () => {
       <div className="absolute left-[-93px] top-[205px] z-20 hidden xl:block">
         <img src={boxIllustration} alt="" />
       </div>
-      <div className="-mt-[4.5rem] flex w-full flex-col items-center gap-[1.75rem] rounded-[23px] bg-white px-6 pb-12 shadow-[0px_50px_50px_-20px_rgba(53,18,122,0.4972)] xl:relative xl:-mt-0 xl:h-[33.3rem] xl:flex-row xl:gap-[5.438rem] xl:overflow-hidden xl:overflow-x-hidden xl:pl-0 xl:pr-[5.938rem]  xl:pt-[4.063rem] xl:pb-[5.188rem]">
+      <div className="-mt-[4.5rem] flex h-[35.375rem] w-full flex-col items-center gap-[1.75rem] rounded-[23px] bg-white px-6 pb-12 shadow-[0px_50px_50px_-20px_rgba(53,18,122,0.4972)] xl:relative xl:-mt-0 xl:h-[33.3rem] xl:flex-row xl:gap-[5.438rem] xl:overflow-hidden xl:overflow-x-hidden xl:pl-0 xl:pr-[5.938rem]  xl:pt-[4.063rem] xl:pb-[5.188rem]">
         <div className="-mt-10 h-[9.063rem] w-[15rem] xl:hidden">
           <img src={mobilePattern} alt="" />
         </div>
